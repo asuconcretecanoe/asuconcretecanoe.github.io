@@ -1,0 +1,60 @@
+:root {
+    --gold: #FFC627;
+    --maroon: #8C1D40;
+}
+
+h2, h3, h4, h5, p {
+    color: var(--maroon);
+    font-family: 'Noto Serif', serif;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+}
+
+.title {
+    color: var(--maroon);
+}
+
+#nav-toggle-state {
+  display: none;
+}
+
+#nav-toggle-state:checked ~ .nav-menu {
+  display: block;
+}
+
+
+.footer {
+    margin-top: 5vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: var(--gold);
+}
+
+li {
+    /* text-align:left;
+    line-height: 1.6; */
+    font-family: 'Noto Serif', serif;
+}
+
+#members {
+    margin-top: 5vh;
+}
+
+#images {
+    margin-top: 5vh;
+}
+
+#photo_carosel {
+    border: 10px solid var(--gold);
+    margin-top: 5vh;
+}
+
+#teamTiles .image img { height: 100%; object-fit: contain; }
+
+#teamTiles .box { border-style: solid; border-color: var(--gold); }
+
+#imageTiles .image img { height: 100%; object-fit: contain; }
+
+#imageModal .image img { width: 100%; object-fit: fit ; }

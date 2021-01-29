@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Concrete Canoe</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Playfair+Display:ital,wght@1,900&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="homepage.js"></script>
+  </head>
+  <body>
+
+<nav id="canoe_navbar" class="navbar is-white" role="navigation" aria-label="main navigation" style="background: var(--gold);">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="index.html">
+      <img src="tempbetter.png" height="80">
+    </a>
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" onmousedown="toggleNav();">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+</div>
+
+  <div class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item" href="current_team.html">
+        Current Team
+      </a>
+
+      <a class="navbar-item" href="image_gallery.html">
+        Gallery
+    </a>
+
+    <a class="navbar-item" href="sponsorship.html">
+      Sponsor Us
+  </a>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <p class="navbar-link">
+          Past Years
+        </p>
+
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="past_year.html" onmousedown="passYear(2020)">
+            2020
+          </a>
+          <a class="navbar-item" href="past_year.html" onmousedown="passYear(2019)">
+            2019
+          </a>
+          <a class="navbar-item" href="past_year.html" onmousedown="passYear(2018)">
+            2018
+          </a>
+          <a class="navbar-item" href="past_year.html" onmousedown="passYear(2017)">
+            2017
+          </a>
+          <a class="navbar-item" href="past_year.html" onmousedown="passYear(2016)">
+            2016
+          </a>
+          <a class="navbar-item" href="past_year.html" onmousedown="passYear(2015)">
+            2015
+          </a>
+          <a class="navbar-item" href="past_year.html" onmousedown="passYear(2014)">
+            2014
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<section class="section">
+    <div class="container">
+        <h1 class="title is-2" style="text-align: center;">Are you interested in sponsoring us?</h1>
+        <h2 class="subtitle is-4" style="text-align: center;">First of all, thank you! </h2>
+        <div class="columns">
+          <div class="column is-half">
+              <h1 class="title is-4" style="text-align: center;">Donate Money:</h1>
+              <div class="content">
+              <p class="subtitle is-5" style="text-align: left; line-height: 1.6;">
+                  Our team is always grateful for monetary donations, as these help us buy supplies, shirts, and snacks for those who are working so hard. This past year, we bought paddles for our paddlers. Your gift will be put to good use. If you'd like to donate money, please reach out by email at <a href="mailto:sundevils.concretecanoe@gmail.com">sundevils.concretecanoe@gmail.com</a>.
+              </p>
+              </div>
+          </div>
+          <div class="column is-half">
+              <h1 class="title is-4" style="text-align: center;">Donate Supplies:</h1>
+              <div class="content">
+              <p class="subtitle is-5" style="text-align: left; line-height: 1.6;">
+                  We are so grateful to local businesses for partnering with our team! We are happy to receive donations in the form of used or new supplies, or discounts if you sell these supplies! Please reach out by email at <a href="mailto:sundevils.concretecanoe@gmail.com">sundevils.concretecanoe@gmail.com</a> if you have supplies that you are willing to donate!
+                  <br>
+                  <br>
+                  Here are just a few supplies that we can always use:
+                  </p>
+              <ul class="subtitle is-5">
+                  <li>Aggregates</li>
+                  <li>Cement Mix</li>
+                  <li>Paint</li>
+                  <li>Tools</li>
+              </ul>
+
+          </div>
+        </div>
+        </div>
+    </div>
+</section>
+
+<div class="columns">
+  <div class="column is-half is-offset-one-quarter">
+      <h1 class="title" style="text-align: center;">Huge thank you to our 2020 Sponsors!</h1>
+          <img src="sponsors.png" alt="">
+  </div>
+</div>
+
+
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>Email:</strong>
+          <a href="mailto:sundevils.concretecanoe@gmail.com">sundevils.concretecanoe@gmail.com</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

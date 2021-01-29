@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Concrete Canoe</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Playfair+Display:ital,wght@1,900&display=swap" rel="stylesheet">
+    <script src="homepage.js"></script>
+  </head>
+  <body>
+
+<nav id="canoe_navbar" class="navbar is-white" role="navigation" aria-label="main navigation" style="background: var(--gold);">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="index.html">
+      <img src="tempbetter.png" height="80">
+    </a>
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" onmousedown="toggleNav();">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+</div>
+
+  <div class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item" href="current_team.html">
+        Current Team
+      </a>
+
+      <a class="navbar-item" href="image_gallery.html">
+        Gallery
+    </a>
+
+    <a class="navbar-item" href="sponsorship.html">
+      Sponsor Us
+  </a>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <p class="navbar-link">
+          Past Years
+        </p>
+
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="past_year.html" onmousedown="passYear(2020)">
+            2020
+          </a>
+          <a class="navbar-item" href="past_year.html" onmousedown="passYear(2019)">
+            2019
+          </a>
+          <a class="navbar-item" href="past_year.html" onmousedown="passYear(2018)">
+            2018
+          </a>
+          <a class="navbar-item" href="past_year.html" onmousedown="passYear(2017)">
+            2017
+          </a>
+          <a class="navbar-item" href="past_year.html" onmousedown="passYear(2016)">
+            2016
+          </a>
+          <a class="navbar-item" href="past_year.html" onmousedown="passYear(2015)">
+            2015
+          </a>
+          <a class="navbar-item" href="past_year.html" onmousedown="passYear(2014)">
+            2014
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+<div class="columns" style="margin-top: 5vh;">
+  <div class="column is-8 is-offset-2">
+    <div class="container">
+        <video controls>
+          <source src="Captioned Canoe Video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
+    </div>
+  </div>
+</div>
+
+
+<section class="section">
+    <div class="container">
+        <h1 class="title" style="text-align: center;">What's Concrete Canoe?</h1>
+        <p class="subtitle" style="text-align: left; line-height: 1.6;">
+            Every year, the Arizona State University Concrete Canoe team designs and builds a canoe made entirely out of lightweight concrete and race the final product for our student-led regional conference. Students get hands-on engineering, construction, and project management skills, which makes them more valuable to potential employers. The project consists of hull design, mix design, and construction aspects that each intertwine to create a 20-foot long canoe. Construction of the canoe consists of CNC milling Styrofoam into the shape of the canoe (as specified in hull design), sanding and preparing the mold, casting and curing the concrete, sanding the canoe and removing the mold, and finishing and sealing the canoe. Paddling practices occur at Tempe Town Lake with the use of previous canoes to prepare for the racing day competition. The project could not be possible without our dedicated team of student and alumni volunteers, industry sponsors, and university support!
+        </p>
+    </div>
+</section>
+
+<div class="columns">
+  <div class="column is-half is-offset-one-quarter">
+      <h1 class="title" style="text-align: center;">Thank you to our 2020 sponsors!</h1>
+          <img src="sponsors.png" alt="">
+  </div>
+</div>
+
+
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>Email:</strong>
+          <a href="mailto:sundevils.concretecanoe@gmail.com">sundevils.concretecanoe@gmail.com</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
