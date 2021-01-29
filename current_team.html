@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Concrete Canoe</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Playfair+Display:ital,wght@1,900&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="homepage.js"></script>
+    <script src="current_team.js"></script>
+  </head>
+  <body>
+
+<nav id="canoe_navbar" class="navbar is-white" role="navigation" aria-label="main navigation" style="background: var(--gold);">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="index.html">
+      <img src="tempbetter.png" height="80">
+    </a>
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" onmousedown="toggleNav();">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+</div>
+
+  <div class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item" href="current_team.html">
+        Current Team
+      </a>
+
+      <a class="navbar-item" href="image_gallery.html">
+        Gallery
+    </a>
+
+    <a class="navbar-item" href="sponsorship.html">
+      Sponsor Us
+  </a>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <p class="navbar-link">
+          Past Years
+        </p>
+
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="past_year.html" onmousedown="passYear(2020)">
+            2020
+          </a>
+          <a class="navbar-item" href="past_year.html" onmousedown="passYear(2019)">
+            2019
+          </a>
+          <a class="navbar-item" href="past_year.html" onmousedown="passYear(2018)">
+            2018
+          </a>
+          <a class="navbar-item" href="past_year.html" onmousedown="passYear(2017)">
+            2017
+          </a>
+          <a class="navbar-item" href="past_year.html" onmousedown="passYear(2016)">
+            2016
+          </a>
+          <a class="navbar-item" href="past_year.html" onmousedown="passYear(2015)">
+            2015
+          </a>
+          <a class="navbar-item" href="past_year.html" onmousedown="passYear(2014)">
+            2014
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+      <div id="members">
+          <div class="container">
+              <div id="teamTiles" class="tile is-ancestor">
+                  </div>
+               </div>
+     </div>
+
+
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>Email:</strong>
+          <a href="mailto:sundevils.concretecanoe@gmail.com">sundevils.concretecanoe@gmail.com</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
