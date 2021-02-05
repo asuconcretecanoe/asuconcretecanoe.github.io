@@ -24,6 +24,13 @@ h1 {
   display: block;
 }
 
+.navbar-menu {
+    font-family: 'Noto Serif', serif;
+}
+
+.navbar-link {
+    font-family: 'Noto Serif', serif;
+}
 
 .footer {
     margin-top: 5vh;
