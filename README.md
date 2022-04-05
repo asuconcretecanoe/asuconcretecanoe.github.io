@@ -69,5 +69,5 @@ Steps to update the past years page:
 Remember to update the name of the css files if you want to change any styling elements--this will force an update to the cache of any people who have loaded the website previously so that the changes are live to them!
 
 ## Got questions? Need access to something? 
-Email me, the old webmaster, at aplukis@asu.edu. 
-If for some reason that's not working, you can reach out to Edward Apraku, the project manager the year this website was made, and he will put you into contact with me.
+Email me, the old webmaster, at ccorralw@asu.edu
+If for some reason that's not working, you can reach out to Gabriella Stadler, the project manager the year this website was made, and she will put you into contact with me.
