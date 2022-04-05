@@ -38,6 +38,12 @@ Steps to update the past years page:
           <a class="navbar-item" href="past_year.html" onmousedown="passYear(YOURHEARHERE)">
             YOURHEARHERE
           </a>
+                 <a class="navbar-item" href="past_year.html" onmousedown="passYear(2020)">
+            2022
+          </a>
+                 <a class="navbar-item" href="past_year.html" onmousedown="passYear(2020)">
+            2021
+          </a>
           <a class="navbar-item" href="past_year.html" onmousedown="passYear(2020)">
             2020
           </a>
